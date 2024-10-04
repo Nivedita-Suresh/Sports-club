@@ -1,0 +1,30 @@
+/* Event Background */
+.event-background {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsZYl66r3GeKS9znsgN3a4Z6R1sWMMhxrq7wxJau8AWi07mAzwh9eEP-g&s=10'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Semi-Transparent Content Box */
+.event-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Black background with 60% opacity */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.event-content h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.event-content p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
