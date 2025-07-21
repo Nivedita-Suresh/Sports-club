@@ -13,7 +13,13 @@ This project is a **frontend-only website** built to practice and demonstrate UI
 
 ## 📸 Screenshots
 
-<img width="1478" height="845" alt="image" src="https://github.com/user-attachments/assets/5e88ad1a-5e0e-4f32-877b-8ed22814cc83" />
+<img width="147.8" height="84.5" alt="image" src="https://github.com/user-attachments/assets/5e88ad1a-5e0e-4f32-877b-8ed22814cc83" />
+
+<img width="149.1" height="86.0" alt="image" src="https://github.com/user-attachments/assets/2376d66a-6706-4063-b3d9-6233407b019c" />
+
+<img width="149.3" height="84.9" alt="image" src="https://github.com/user-attachments/assets/5766ff44-967b-4c8b-a904-fed9fda96a56" />
+
+
 
 
 
