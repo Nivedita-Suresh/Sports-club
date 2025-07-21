@@ -1,67 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports Club</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sports Club</title>
+
+  <!-- Bootstrap CSS -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous"
+  />
+
+  <style>
+    /* Custom Styles */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #343a40;
+    }
+
+    .navbar a {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzg_F7GJwGyqjkr00YXKSWMAvhPijrpGLwCHL77Z12Nti2HbXOW1jLeNs&s=10');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 700px;
+    }
+
+    .hero-overlay h1 {
+      font-size: 3rem;
+    }
+
+    /* About Section */
+    #about {
+      padding: 60px 15px;
+    }
+
+    /* Events Section */
+    #events {
+      padding: 60px 15px;
+      background-color: #f8f9fa;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>skillswapp</h1>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Sports Club</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <h1>Welcome to Our Sports Club</h1>
+      <p>Your health, our priority. Join us for exciting sports and fitness events!</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2 class="text-center mb-4">About Us</h2>
+    <p class="lead text-center">
+      Sports Club is dedicated to promoting a healthy and active lifestyle.
+      We offer a wide range of sports and fitness activities for all ages and skill levels.
+      Be part of an energetic and welcoming community that loves sports as much as you do!
+    </p>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events">
+    <div class="container">
+      <h2 class="text-center mb-5">Upcoming Events</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img </class="card-img-top>" src="https://cdn.britannica.com/51/190751-131-B431C216/soccer-ball-goal.jpg" alt="Football">
+            <div class="card-body">
+              <h5 class="card-title">Soccer Tournament</h5>
+              <p class="card-text">Join the excitement on August 25. Compete with the best and show your skills on the field!</p>
+              <a href="football.html" class="btn btn-primary btn-block">View Event</a>
+            </div>
+          </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#teams">Teams</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFeNQCAFHVGHUM_rFKoZNSO7gbW3KQVXFlFA&usqp=CAU" alt="Sports Club"width="360" height="200" class="hero-img">
-            
-            <p><b></l><center>give it. take it</b></p>
-            
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsZYl66r3GeKS9znsgN3a4Z6R1sWMMhxrq7wxJau8AWi07mAzwh9eEP-g&s=10" alt="Basketball">
+            <div class="card-body">
+              <h5 class="card-title">Basketball League</h5>
+              <p class="card-text">Starting September 10. Team up and compete in our community basketball league.</p>
+              <a href="basketball-league.html" class="btn btn-primary btn-block">View. Event</a>
+            </div>
+          </div>
         </div>
-    </section>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs6Mf7TDh14U6swOAAB2zN0wHs-Nb8jdp2dw&usqp=CAU" alt="Marathon">
+            <div class="card-body">
+              <h5 class="card-title">Annual Marathon</h5>
+              <p class="card-text">Run with us on October 15 at City Park. Open to all ages and experience levels.</p>
+              <a href="annual-marathon.html" class="btn btn-primary btn-block">View Event</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>About Us
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Sports Club. All rights reserved.</p>
+  </footer>
 
-Welcome to skillswapp, a platform designed to connect individuals through skill trading. Our mission is to create a community where people can exchange knowledge, learn new skills, and grow together without financial barriers.
-
-Whether you want to learn a new language, improve your coding skills, or master an instrument, our platform helps you find mentors and trade expertise in a seamless and collaborative way.
-
-What We Offer
-
-Skill-Based Matching: Connect with people who have the skills you need and offer your expertise in return.
-
-Seamless Communication: Chat with potential mentors before confirming a trade.
-
-Progress Tracking: Share updates, get feedback, and improve continuously.
-
-Community-Driven Learning: Grow your network and build valuable relationships.
-
-
-Join us in redefining learning through collaboration and skill-sharing!
-
-</p>
-    </section>
-
-    <section id="events" class="events">
-        
-        <button type="submit">search</button>
-        
-        <button type="submit">chat</button>
-        
-       <button type="submit">profile</button>
-        
 </body>
 </html>
