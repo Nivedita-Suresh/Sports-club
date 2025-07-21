@@ -8,12 +8,13 @@ This project is a **frontend-only website** built to practice and demonstrate UI
 
 ## 🌐 Live Demo
 
-🔗 [Click here to view the website](#) *(GitHub Pages link to be added)*
+🔗 [Click here to view the website](#) *((https://nivedita-suresh.github.io/Sports-club/))*
 
 
 ## 📸 Screenshots
 
-Screenshots of the homepage, event pages, and forms will be added here.
+<img width="1478" height="845" alt="image" src="https://github.com/user-attachments/assets/5e88ad1a-5e0e-4f32-877b-8ed22814cc83" />
+
 
 
 ## 🚀 Features
